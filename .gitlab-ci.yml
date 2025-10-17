@@ -8,6 +8,7 @@
 stages:
 - test
 - secret-detection
+- pages
 variables:
   SECRET_DETECTION_ENABLED: 'true'
 secret_detection:
