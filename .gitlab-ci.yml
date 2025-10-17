@@ -16,6 +16,7 @@ secret_detection:
 include:
 - template: Security/Secret-Detection.gitlab-ci.yml
 
+# Deploy
 pages:
   stage: deploy
   script:
