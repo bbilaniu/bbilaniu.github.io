@@ -8,7 +8,7 @@
 stages:
 - test
 - secret-detection
-- pages
+- deploy
 variables:
   SECRET_DETECTION_ENABLED: 'true'
 secret_detection:
